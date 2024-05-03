@@ -1,0 +1,46 @@
+body,
+html {
+  background-color: darkgray;
+}
+
+h1.title {
+  text-align: center;
+  font-size: 150px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flexitem {
+  width: calc(100%/2 - 20px);
+  background-color: #413e3e;
+}
+
+.flexitem p {
+  color: #FFFFFF;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flexboxSide {
+  display: flex;
+  color: #383838;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  display: none;
+}
